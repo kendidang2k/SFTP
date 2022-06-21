@@ -1,0 +1,83 @@
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.color-primary {
+  color: $primary;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+bdi {
+  display: inline-block;
+}
+
+.ct-inner-content {
+  overflow: hidden;
+}
+
+ul {
+  list-style: unset;
+}
+
+header .wpml-ls-legacy-dropdown-click {
+  width: auto;
+  min-width: 130px;
+}
+
+.download-item img {
+  max-width: 120px;
+
+  @media (max-width: 549px) {
+    max-width: 60px;
+  }
+}
+
+.woo-sctr-countdown-timer-layout {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .ct-new-columns > .ct-div-block {
+    padding: 0;
+  }
+  .ct-section-inner-wrap {
+    padding-bottom: 48px;
+    padding-top: 48px;
+  }
+}

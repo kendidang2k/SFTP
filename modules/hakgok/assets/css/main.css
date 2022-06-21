@@ -1,0 +1,98 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.align-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.justify-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.color-primary {
+  color: #66ff66;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+bdi {
+  display: inline-block;
+}
+
+.ct-inner-content {
+  overflow: hidden;
+}
+
+ul {
+  list-style: unset;
+}
+
+header .wpml-ls-legacy-dropdown-click {
+  width: auto;
+  min-width: 130px;
+}
+
+.download-item img {
+  max-width: 120px;
+}
+
+@media (max-width: 549px) {
+  .download-item img {
+    max-width: 60px;
+  }
+}
+
+.woo-sctr-countdown-timer-layout {
+  background: transparent !important;
+}
+
+.post__item {
+  background-origin: #000;
+}
+
+@media (max-width: 991px) {
+  .ct-new-columns > .ct-div-block {
+    padding: 0;
+  }
+  .ct-section-inner-wrap {
+    padding-bottom: 48px;
+    padding-top: 48px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

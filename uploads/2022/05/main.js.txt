@@ -1,0 +1,5 @@
+(function ($) {
+  $(".btn-download").click(function () {
+    location.href = "/uploads/installer/mac/hakgok_beta.dmg";
+  });
+})(jQuery);

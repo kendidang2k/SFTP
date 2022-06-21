@@ -1,0 +1,60 @@
+[24-May-2022 04:39:10 UTC] PHP Warning:  include(/var/www/test-wp/modules/sitepress-multilingual-cms/vendor/composer/../../classes/language/Detection/CookieLanguage.php): Failed to open stream: No such file or directory in /var/www/test-wp/modules/sitepress-multilingual-cms/vendor/composer/ClassLoader.php on line 444
+[24-May-2022 04:39:10 UTC] PHP Warning:  include(): Failed opening '/var/www/test-wp/modules/sitepress-multilingual-cms/vendor/composer/../../classes/language/Detection/CookieLanguage.php' for inclusion (include_path='.:/usr/share/php') in /var/www/test-wp/modules/sitepress-multilingual-cms/vendor/composer/ClassLoader.php on line 444
+[24-May-2022 04:39:10 UTC] PHP Fatal error:  Uncaught Error: Class "WPML\Language\Detection\CookieLanguage" not found in /var/www/test-wp/modules/sitepress-multilingual-cms/inc/wpml_load_request_handler.php:18
+Stack trace:
+#0 /var/www/test-wp/modules/sitepress-multilingual-cms/sitepress.php(281): wpml_load_request_handler()
+#1 /var/www/test-wp/core/wp-settings.php(418): include_once('...')
+#2 /var/www/test-wp/config/config.php(26): require_once('...')
+#3 /var/www/test-wp/core/wp-config.php(15): require_once('...')
+#4 /var/www/test-wp/core/wp-load.php(50): require_once('...')
+#5 /var/www/test-wp/core/wp-admin/admin.php(34): require_once('...')
+#6 /var/www/test-wp/core/wp-admin/index.php(10): require_once('...')
+#7 {main}
+  thrown in /var/www/test-wp/modules/sitepress-multilingual-cms/inc/wpml_load_request_handler.php on line 18
+[24-May-2022 04:39:10 UTC] PHP Notice:  is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /var/www/test-wp/core/wp-includes/functions.php on line 5775
+[24-May-2022 04:39:10 UTC] PHP Notice:  is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /var/www/test-wp/core/wp-includes/functions.php on line 5775
+[24-May-2022 04:39:47 UTC] PHP Deprecated:  Required parameter $callback follows optional parameter $values in /var/www/test-wp/modules/oxygen/component-framework/includes/conditions.php on line 185
+[24-May-2022 04:39:47 UTC] PHP Deprecated:  Required parameter $callback follows optional parameter $values in /var/www/test-wp/modules/oxygen/component-framework/includes/conditions.php on line 1187
+[24-May-2022 04:39:47 UTC] PHP Deprecated:  Required parameter $callback follows optional parameter $values in /var/www/test-wp/modules/oxygen/component-framework/includes/conditions.php on line 1203
+[24-May-2022 04:39:48 UTC] PHP Deprecated:  Required parameter $defaults follows optional parameter $is_media in /var/www/test-wp/modules/oxygen/component-framework/components/classes/testimonial.class.php on line 136
+[24-May-2022 04:39:48 UTC] PHP Deprecated:  Required parameter $defaults follows optional parameter $is_media in /var/www/test-wp/modules/oxygen/component-framework/components/classes/icon-box.class.php on line 122
+[24-May-2022 04:39:48 UTC] PHP Deprecated:  Required parameter $defaults follows optional parameter $is_media in /var/www/test-wp/modules/oxygen/component-framework/components/classes/pricing-box.class.php on line 428
+[24-May-2022 04:39:48 UTC] PHP Deprecated:  Required parameter $defaults follows optional parameter $is_media in /var/www/test-wp/modules/oxygen/component-framework/components/classes/progress-bar.class.php on line 124
+[24-May-2022 04:39:48 UTC] PHP Deprecated:  Required parameter $defaults follows optional parameter $is_media in /var/www/test-wp/modules/oxygen/component-framework/components/classes/slider.class.php on line 406
+[24-May-2022 04:39:48 UTC] PHP Deprecated:  Required parameter $defaults follows optional parameter $is_media in /var/www/test-wp/modules/oxygen/component-framework/components/classes/superbox.class.php on line 115
+[24-May-2022 04:39:48 UTC] PHP Deprecated:  Required parameter $defaults follows optional parameter $is_media in /var/www/test-wp/modules/oxygen/component-framework/components/classes/toggle.class.php on line 98
+[24-May-2022 04:39:48 UTC] PHP Deprecated:  Required parameter $defaults follows optional parameter $is_media in /var/www/test-wp/modules/oxygen/component-framework/api/oxygen.element.class.php on line 725
+[24-May-2022 04:39:48 UTC] PHP Deprecated:  Required parameter $selector follows optional parameter $css in /var/www/test-wp/modules/oxygen/component-framework/api/oxygen.element.class.php on line 1003
+[24-May-2022 04:53:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_default_language() on null in /var/www/test-wp/modules/sctv-sales-countdown-timer/includes/admin/countdown.php:29
+Stack trace:
+#0 /var/www/test-wp/core/wp-includes/class-wp-hook.php(307): VI_SCT_SALES_COUNTDOWN_TIMER_Admin_Countdown->save_settings()
+#1 /var/www/test-wp/core/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /var/www/test-wp/core/wp-includes/plugin.php(474): WP_Hook->do_action()
+#3 /var/www/test-wp/core/wp-admin/admin.php(175): do_action()
+#4 /var/www/test-wp/core/wp-admin/index.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/test-wp/modules/sctv-sales-countdown-timer/includes/admin/countdown.php on line 29
+[24-May-2022 04:55:46 UTC] PHP Warning:  include(/var/www/test-wp/modules/sitepress-multilingual-cms/vendor/composer/../../classes/language/Detection/CookieLanguage.php): Failed to open stream: No such file or directory in /var/www/test-wp/modules/sitepress-multilingual-cms/vendor/composer/ClassLoader.php on line 444
+[24-May-2022 04:55:46 UTC] PHP Warning:  include(): Failed opening '/var/www/test-wp/modules/sitepress-multilingual-cms/vendor/composer/../../classes/language/Detection/CookieLanguage.php' for inclusion (include_path='.:/usr/share/php') in /var/www/test-wp/modules/sitepress-multilingual-cms/vendor/composer/ClassLoader.php on line 444
+[24-May-2022 04:55:46 UTC] PHP Fatal error:  Uncaught Error: Class "WPML\Language\Detection\CookieLanguage" not found in /var/www/test-wp/modules/sitepress-multilingual-cms/inc/wpml_load_request_handler.php:18
+Stack trace:
+#0 /var/www/test-wp/modules/sitepress-multilingual-cms/sitepress.php(281): wpml_load_request_handler()
+#1 /var/www/test-wp/core/wp-settings.php(418): include_once('...')
+#2 /var/www/test-wp/config/config.php(26): require_once('...')
+#3 /var/www/test-wp/core/wp-config.php(15): require_once('...')
+#4 /var/www/test-wp/core/wp-load.php(50): require_once('...')
+#5 /var/www/test-wp/core/wp-admin/admin.php(34): require_once('...')
+#6 /var/www/test-wp/core/wp-admin/index.php(10): require_once('...')
+#7 {main}
+  thrown in /var/www/test-wp/modules/sitepress-multilingual-cms/inc/wpml_load_request_handler.php on line 18
+[24-May-2022 04:55:46 UTC] PHP Notice:  is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /var/www/test-wp/core/wp-includes/functions.php on line 5775
+[24-May-2022 04:55:46 UTC] PHP Notice:  is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /var/www/test-wp/core/wp-includes/functions.php on line 5775
+[24-May-2022 04:57:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_default_language() on null in /var/www/test-wp/modules/sctv-sales-countdown-timer/includes/admin/countdown.php:29
+Stack trace:
+#0 /var/www/test-wp/core/wp-includes/class-wp-hook.php(307): VI_SCT_SALES_COUNTDOWN_TIMER_Admin_Countdown->save_settings()
+#1 /var/www/test-wp/core/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /var/www/test-wp/core/wp-includes/plugin.php(474): WP_Hook->do_action()
+#3 /var/www/test-wp/core/wp-admin/admin.php(175): do_action()
+#4 /var/www/test-wp/core/wp-admin/index.php(10): require_once('...')
+#5 {main}
+  thrown in /var/www/test-wp/modules/sctv-sales-countdown-timer/includes/admin/countdown.php on line 29
